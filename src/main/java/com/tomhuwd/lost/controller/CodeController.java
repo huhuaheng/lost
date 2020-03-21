@@ -25,7 +25,7 @@ public class CodeController extends BaseController {
 
     @RequestMapping("")
     public String index() {
-        return "/index";
+        return "index";
     }
 
     @RequestMapping("/code/getAll")
